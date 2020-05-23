@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  color: #444;
+}
+
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.address {
+  color: #999;
+}
+
+.movie {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.movie__title {
+  flex: 0 0 20rem;
+}
+
+.movie__title {
+  font-weight: bold;
+}
+
+.movie__time {
+  flex: 0 0 3rem;
+  text-align: right;
+}
+
+.movie__hall {
+  flex: 1;
+  text-align: right;
+}
+
+/*-----------moje css------------*/
+
+.cinema__listed {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ background-color: rgb(237, 241, 240);
+  border-radius: 20px 20px 0 0;
+}
+.name,
+.address {
+  padding: 20px;
+}
+
+.movies__list {
+  border-radius: 0 0 20px 20px;
+  background-color: rgb(219, 234, 236);
+}
+
+.movie__listed {
+  display: flex;
+  padding: 15px 25px;
+  border-top: 2px solid gray;
+}
+
+.movie__time {
+  text-align: center;
+}
+.movie__hall {
+  text-align: center;
+}
