@@ -14,12 +14,15 @@
         <template id="cinema-template">
           <div class="cinema__listed">
             <div class=heading>
+              <!-- z index.js si pres fci renderCinema beru name z objektu cinema, níže address z objektu cinema -->
               <h2 class="name">{{name}}</h2>
               <h3 class="address">{{address}}</h3>
             </div>
+            <!-- do tohoto divu se renderuji filmy pomoci fce renderMovie -->
             <div class="movies__list"></div>
           </div>
         </template>
+
         <div class="cinema__movies">
           <!-- doplňte seznam filmů -->
           <template id="movie-template">
