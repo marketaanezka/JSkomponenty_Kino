@@ -1,2 +1,2 @@
 # JSkomponenty_Kino
-cvičení na vytváření šablon pomocí Handlebars 
+cvičení na vytváření programů pomocí Javascript komponent
